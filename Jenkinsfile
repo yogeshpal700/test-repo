@@ -7,7 +7,7 @@ node{
 	}
 
 	stage('build image'){
-		app=docker.build('yogeshpal700/test-repo')
+		app=docker.build('yogeshimage700/testingImage')
 	}
 
 	stage('test image'){
